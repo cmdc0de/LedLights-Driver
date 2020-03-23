@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="divide_circle" targetName="divide_circle" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d902e35f-e01d-4f67-824e-3f63a80b417a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1ZT8GZaKYPnakkT4qyVRT9gYQI4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="divide_circle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="divide_circle" TARGET_NAME="divide_circle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="divide_circle" RUN_TARGET_NAME="divide_circle">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d902e35f-e01d-4f67-824e-3f63a80b417a" name="Default Changelist" comment="" />
+      <created>1584851629155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584851629155</updated>
+      <workItem from="1584851631799" duration="27000" />
+      <workItem from="1584851714204" duration="84000" />
+      <workItem from="1584851962537" duration="1705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1342" height="266" key="GridCell.Tab.0.bottom" timestamp="1584856594957">
+      <screen x="-2160" y="-1671" width="1440" height="2520" />
+    </state>
+    <state width="1342" height="266" key="GridCell.Tab.0.bottom/0.0.2669.1440/-2160.-1671.1440.2520@-2160.-1671.1440.2520" timestamp="1584856594957" />
+    <state width="1342" height="266" key="GridCell.Tab.0.bottom/0.0.2669.1440/-2160.-1671.1440.2520@0.0.2669.1440" timestamp="1584852124325" />
+    <state width="1342" height="266" key="GridCell.Tab.0.center" timestamp="1584856594956">
+      <screen x="-2160" y="-1671" width="1440" height="2520" />
+    </state>
+    <state width="1342" height="266" key="GridCell.Tab.0.center/0.0.2669.1440/-2160.-1671.1440.2520@-2160.-1671.1440.2520" timestamp="1584856594956" />
+    <state width="1342" height="266" key="GridCell.Tab.0.center/0.0.2669.1440/-2160.-1671.1440.2520@0.0.2669.1440" timestamp="1584852124325" />
+    <state width="1342" height="266" key="GridCell.Tab.0.left" timestamp="1584856594956">
+      <screen x="-2160" y="-1671" width="1440" height="2520" />
+    </state>
+    <state width="1342" height="266" key="GridCell.Tab.0.left/0.0.2669.1440/-2160.-1671.1440.2520@-2160.-1671.1440.2520" timestamp="1584856594956" />
+    <state width="1342" height="266" key="GridCell.Tab.0.left/0.0.2669.1440/-2160.-1671.1440.2520@0.0.2669.1440" timestamp="1584852124325" />
+    <state width="1342" height="266" key="GridCell.Tab.0.right" timestamp="1584856594957">
+      <screen x="-2160" y="-1671" width="1440" height="2520" />
+    </state>
+    <state width="1342" height="266" key="GridCell.Tab.0.right/0.0.2669.1440/-2160.-1671.1440.2520@-2160.-1671.1440.2520" timestamp="1584856594957" />
+    <state width="1342" height="266" key="GridCell.Tab.0.right/0.0.2669.1440/-2160.-1671.1440.2520@0.0.2669.1440" timestamp="1584852124325" />
+    <state x="1030" y="544" key="com.intellij.ide.util.TipDialog" timestamp="1584851962564">
+      <screen x="0" y="0" width="2669" height="1440" />
+    </state>
+    <state x="1030" y="544" key="com.intellij.ide.util.TipDialog/0.0.2669.1440/-2160.-1671.1440.2520@0.0.2669.1440" timestamp="1584851962564" />
+  </component>
+</project>
