@@ -37,7 +37,8 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-
+SPI_HandleTypeDef *getSPI();
+I2C_HandleTypeDef *getI2C();
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
