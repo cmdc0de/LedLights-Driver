@@ -12,6 +12,7 @@
 #include "leds/apa102c.h"
 #include "rgbcolor.h"
 #include "main.h"
+#include "i2c.h"
 
 using namespace cmdc0de;
 

@@ -112,12 +112,21 @@
 							<option id="fr.ac6.managedbuild.option.gnu.cross.instructionSet.2057280008.1201750182" name="Instruction Set" superClass="fr.ac6.managedbuild.option.gnu.cross.instructionSet.2057280008"/>
 							<option id="fr.ac6.managedbuild.option.gnu.cross.fpu.957390983.1216451539" name="Floating point hardware" superClass="fr.ac6.managedbuild.option.gnu.cross.fpu.957390983"/>
 							<option id="fr.ac6.managedbuild.option.gnu.cross.floatabi.2085016096.559923417" name="Floating-point ABI" superClass="fr.ac6.managedbuild.option.gnu.cross.floatabi.2085016096"/>
-							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.701664349" name="MCU GCC Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1916629266"/>
-							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.744993551" name="MCU G++ Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.1092041852"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.701664349" name="MCU GCC Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1916629266">
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.1541081203" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s.1416010992" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.744993551" name="MCU G++ Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.1092041852">
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp.569286120" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.s.62689587" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.s"/>
+							</tool>
 							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.linker.1848883128" name="MCU GCC Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.linker.847234068"/>
 							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.755954048" name="MCU G++ Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.1021576846"/>
 							<tool id="fr.ac6.managedbuild.tool.gnu.archiver.594871060" name="MCU GCC Archiver" superClass="fr.ac6.managedbuild.tool.gnu.archiver.934064458"/>
-							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.1171246620" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.1989569989"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.1171246620" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.1989569989">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1403743743" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.assembler.input.2077031570" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.input"/>
+							</tool>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
@@ -252,19 +261,11 @@
 		</configuration>
 		<configuration configurationName="Release"/>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.release.1333159471;fr.ac6.managedbuild.config.gnu.cross.exe.release.1333159471.;fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.1092041852;fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp.908404514">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.debug.2094276555;fr.ac6.managedbuild.config.gnu.cross.exe.debug.2094276555.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1916629266;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.1822777895">
 			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.debug.2094276555;fr.ac6.managedbuild.config.gnu.cross.exe.debug.2094276555.;fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.1092041852;fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp.908404514">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.exe.release.1333159471;fr.ac6.managedbuild.config.gnu.cross.exe.release.1333159471.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1916629266;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.1822777895">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 	</storageModule>
 </cproject>
