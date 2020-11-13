@@ -31,7 +31,20 @@ void initApp() {
   I2CM.scan();
 }
 
+int8_t percent =100;
+uint16_t count = 0;
+bool up = false;
 
 void run() {
-	apa102c.send();
+	if(count==0) {
+		apa102c.setBrightness(up ? percent++ : percent--);
+		apa102c.send();
+		if(percent<1) {
+			up = true;
+		} else if (percent>99) {
+			up = false;
+		}
+	}
+	++count;
+	if(10000==count) count = 0;
 }
